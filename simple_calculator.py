@@ -39,9 +39,7 @@ while True:
         num1, num2, ret = arithmetic_ops(lambda x,y:x/y)
     elif op == "%":
         num1, num2, ret = arithmetic_ops(lambda x,y:x%y)
-    #
     # [fill this area] 위의 코드를 참고하여 -, /, %에 대한 내용 구현
-    #
     else:
         print("Invalid operation")
         continue # Invalid operation이므로 연산결과를 출력하지 않고 "넘어간다".
